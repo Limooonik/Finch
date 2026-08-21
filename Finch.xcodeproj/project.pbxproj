@@ -10,10 +10,9 @@
 		D27E84D33038E08500D4D400 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27E84D23038E08500D4D400 /* WidgetKit.framework */; };
 		D27E84D53038E08500D4D400 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27E84D43038E08500D4D400 /* SwiftUI.framework */; };
 		D27E84E23038E08A00D4D400 /* FinchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D27E84D03038E08500D4D400 /* FinchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D27E84EA3038E0C000D4D400 /* Limooonik.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27E84E83038E0C000D4D400 /* Limooonik.xcframework */; };
-		D27E84EB3038E0F700D4D400 /* Limooonik.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27E84E83038E0C000D4D400 /* Limooonik.xcframework */; };
-		D27E84FF3038E4D400D4D400 /* Limooonik.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27E84E83038E0C000D4D400 /* Limooonik.xcframework */; };
-		D27E85003038E4D400D4D400 /* Limooonik.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D27E84E83038E0C000D4D400 /* Limooonik.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D28848103038FD7200F4E4D2 /* Limooonik.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D288480E3038FD7200F4E4D2 /* Limooonik.xcframework */; };
+		D28848113038FDFA00F4E4D2 /* Limooonik.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D288480E3038FD7200F4E4D2 /* Limooonik.xcframework */; };
+		D28848123038FDFA00F4E4D2 /* Limooonik.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D288480E3038FD7200F4E4D2 /* Limooonik.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,17 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D27E85003038E4D400D4D400 /* Limooonik.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28848133038FDFA00F4E4D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D28848123038FDFA00F4E4D2 /* Limooonik.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +65,7 @@
 		D27E84D03038E08500D4D400 /* FinchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E84D23038E08500D4D400 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		D27E84D43038E08500D4D400 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		D27E84E83038E0C000D4D400 /* Limooonik.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Limooonik.xcframework; sourceTree = "<group>"; };
+		D288480E3038FD7200F4E4D2 /* Limooonik.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Limooonik.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -90,8 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27E84EA3038E0C000D4D400 /* Limooonik.xcframework in Frameworks */,
-				D27E84EB3038E0F700D4D400 /* Limooonik.xcframework in Frameworks */,
+				D28848113038FDFA00F4E4D2 /* Limooonik.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +109,7 @@
 			files = (
 				D27E84D53038E08500D4D400 /* SwiftUI.framework in Frameworks */,
 				D27E84D33038E08500D4D400 /* WidgetKit.framework in Frameworks */,
-				D27E84FF3038E4D400D4D400 /* Limooonik.xcframework in Frameworks */,
+				D28848103038FD7200F4E4D2 /* Limooonik.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +140,7 @@
 			children = (
 				D27E84D23038E08500D4D400 /* WidgetKit.framework */,
 				D27E84D43038E08500D4D400 /* SwiftUI.framework */,
-				D27E84E83038E0C000D4D400 /* Limooonik.xcframework */,
+				D288480E3038FD7200F4E4D2 /* Limooonik.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 				D27E84BB3038E05C00D4D400 /* Frameworks */,
 				D27E84BC3038E05C00D4D400 /* Resources */,
 				D27E84E73038E08A00D4D400 /* Embed Foundation Extensions */,
+				D28848133038FDFA00F4E4D2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
