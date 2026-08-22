@@ -1,27 +1,17 @@
-# Finch Widget Animation for iOS
+# Finch. Animated home screen widget.
 
+Add the widget to your home screen. 
+You can change the visual parameters of the widget directly in the code. 
+Or you can bind parameters to any function, state change, or trigger in the app or directly on the widget.
 
+- Only Apple technologies (everything in SwiftUI).
+- No private APIs or third-party workarounds.
+- No GIFs or videos.
+- Works completely offline.
+- Can do looped animation.
+- Can set up reactions to events from the app or right on the widget.
+- Doesn't drain the battery at all.
+- Can change colors/size and other parameters for your widget.
 
-
-
-
-A production-ready implementation of continuous, smooth native animations inside iOS Widgets built purely with **SwiftUI** and **WidgetKit**. 
-
-No workarounds, no looping GIFs, and no heavy video hacks — 100% native second-by-second updates approved for distribution in the App Store.
-
----
-
-### 🚀 Key Features
-* **Real-time Native Animation:** Smooth continuous UI updates directly inside the iOS widget grid.
-* **Pure SwiftUI:** Built natively utilizing Apple's modern framework stack.
-* **Low Battery Impact:** Optimized background scheduling and efficient rendering.
-* **App Store Verified:** Successfully passed multiple App Review cycles.
-
----
-
-### 📱 Live in App Store
-Check out the fully working implementation in the App Store:
-👉 [Download on the App Store](https://apps.apple.com/us/app/clock-widgets-homescreen/id6755961385)
-
-nicklimoapps@gmail.com
-
+For any questions, comments, orders, or cooperation please contact:
+[nicklimoapps@gmail.com](mailto:nicklimoapps@gmail.com)
