@@ -6,6 +6,8 @@ You can change the visual parameters of the widget directly in the code.
 
 Or you can bind parameters to any function, state change, or trigger in the app or directly on the widget.
 
+____________________________________________________________
+
 - Only Apple technologies (everything in SwiftUI).
 - No private APIs or third-party workarounds.
 - No GIFs or videos.
