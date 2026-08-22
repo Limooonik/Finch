@@ -1,5 +1,7 @@
 # Finch. Animated home screen widget.
 
+https://github.com/user-attachments/assets/f14fd248-1367-40c9-8d68-cfc8c41eca22
+
 Add the widget to your home screen. 
 
 You can change the visual parameters of the widget directly in the code. 
