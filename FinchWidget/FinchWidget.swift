@@ -12,6 +12,9 @@ struct FinchWidget: Widget {
         StaticConfiguration(kind: kind, provider: Limooonik.Provider(config: config)) { entry in
             Button(intent: ReloadAnimIntent()) {
                 Limooonik.FinchView(entry: entry)
+                  .containerBackground(for: .widget) {
+                Color.black 
+            }
             }
             .buttonStyle(.plain)
         }
